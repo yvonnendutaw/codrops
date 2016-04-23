@@ -88,7 +88,7 @@ button.trigger {
     height: 1em;
     border: none;
     background: transparent;
-    color: transparent;
+    color: #fff;
     font-size: 2em;
     cursor: pointer;
 }
@@ -1451,4 +1451,8 @@ a:focus {
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.5);
     /*dim the background*/
+}
+.row {
+    padding: 0em;
+    margin: 0em;
 }
