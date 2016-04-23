@@ -1276,6 +1276,10 @@ a:focus {
         font-size: 80%;
     }
 }
+
+/*nav bar
+*/
+
 .menu {
     line-height: 1;
     margin: 0 auto 0em auto;
@@ -1297,7 +1301,7 @@ a:focus {
     float: right;
 }
 .menu__link {
-    font-size: 1.05em;
+    font-size: 0.8em;
     font-weight: bold;
     display: block;
     padding: 1em;
@@ -1434,4 +1438,17 @@ a:focus {
 }
 .row.nav-bar {
     margin: 0em;
+}
+
+/*class overlay*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*dim the background*/
 }
